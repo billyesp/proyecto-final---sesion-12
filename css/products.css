@@ -1,0 +1,69 @@
+
+/*============ CABECERA =========*/
+.section-header-products{
+    padding: 45px;
+}
+.title-store{
+    color: #212529;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* ========== seccion filtro =========== */
+.filter-group {
+    border-bottom: 1px solid #e4e4e4;
+}
+.filter-group .card-header {
+    border-bottom: 0;
+    background-color: #fff;
+}
+.icon-control {
+    margin-top: 5px;
+    float: right;
+    font-size: 80%;
+}
+.card-header .title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+a{
+    color: #212529;
+    text-decoration: none;
+    background-color: transparent;
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.list-menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.list-menu li {
+    margin-bottom: 5px;
+}
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+
+/* ================= CARD BODY PRODUCT =========*/
+.content-card-product{
+    padding: 15px;
+}
+.btn{
+    width: 100%;
+}
+.btn-success{
+    color: #fff;
+    background-color: #00b517;
+    border-color: #00b517;
+}
+.btn-success:hover,
+.btn-success:focus{
+    
+    color: #fff;
+    background-color: #1aa52c;
+    border-color: #1aa52c;
+}

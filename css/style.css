@@ -1,0 +1,213 @@
+/*
+    COLORES:
+
+    #212529 DARK
+    #707070 GRISCLARO
+*/
+
+/* ========== GLOBAL ========= */
+
+.padding-y-sm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.padding-y{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bg {
+    background-color: #f8f9fa;
+}
+/*=========== NAVBAR ===========*/
+.header-main {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.brand-wrap .logo{
+    margin-right: 7px;
+    max-height: 42px;
+    display: inline-block;
+}
+.dropdown{
+    margin-left: 15px;
+}
+.dropdown .dropdown-menu a{
+    user-select: none;
+}
+.btn {
+    width: 100%;
+}
+.widget-header {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 1em;
+}
+
+.widget-header a {
+    color: #343a40;
+    text-decoration: none;
+    color: #212529;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.widget-header .notify {
+    position: absolute;
+    top: -3px;
+    right: -10px;
+}
+
+.widget-header a:hover {
+    color: #707070;
+}
+.widget-header i {
+    color: #969696;
+}
+
+.widget-header:hover i {
+    color: #212529;
+}
+
+.notify {
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 3rem;
+    color: #fff;
+    background-color: #212529;
+}
+
+.icon-sm {
+    width: 48px;
+    height: 48px;
+    line-height: 48px !important;
+    font-size: 20px;
+}
+.icon-xs, .icon-sm, .icon-md, .icon-lg {
+    display: inline-block;
+    text-align: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+/*=========== FIN NAVBAR ===========*/
+
+/* ======== BANNER ============*/
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/* ====== FIN BANNNER ========== */
+
+/* =========== CARD ITEM  =============*/
+.container .section-heading .btn{
+    width: 15%;
+}
+.product-anchor{
+    text-decoration: none;
+}
+
+.product-title{
+    font-weight: bolder;
+    color: #212529;
+}
+.product-title:hover{
+    font-weight: bolder;
+    color: #707070 ;
+}
+
+.price{
+    font-weight: 600;
+    color: #212529;
+}
+
+.card-product{
+    margin-top: 2em;
+    max-height: 100%;
+}
+.card-product:hover{
+    box-shadow: 0px 0px 15px 0px;
+    transform: scale(1.01);
+}
+
+/* ========== LOGIN ==================*/
+.section-login{
+    margin: 40px;
+}
+
+.padding-y-login{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+/* ========== flotante ==================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #00b517;
+    border-color: #00b517;
+}
